@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HomeView />
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import HelloWorld from './components/SingleProject.vue';
+import HomeView from './views/HomeView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomeView
   }
 }
 </script>
 
 <style>
+body{
+  
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
 }
 </style>

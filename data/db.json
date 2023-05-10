@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title":"Until recently, the prevailing ",
+            "details":"details",
+            "complete":"false"
+        },
+        {
+            "id": 2,
+            "title":"Lorem ipsum dolor sit amet, consectetur ",
+            "details":"details2",
+            "complete":"true"
+        }
+    ]
+}
