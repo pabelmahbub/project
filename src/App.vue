@@ -1,15 +1,18 @@
 <template>
-  <HomeView />
+  <NavbarTop />
+  <HomeView  style="margin-top:100px"/>
   <router-view />
 </template>
 
 <script>
 //import HelloWorld from './components/SingleProject.vue';
-import HomeView from './views/HomeView.vue'
+import HomeView from './views/HomeView.vue';
+import NavbarTop from './components/NavbarTop.vue';
 
 export default {
   name: 'App',
   components: {
+    NavbarTop,
     HomeView
   }
 }
@@ -24,7 +27,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #555;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 </style>
